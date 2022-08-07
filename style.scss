@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.custom_container {
+  background-color: #06283d !important;
+}
+
+.flex-item {
+  background: #47b5ff;
+  // background: #1363df !important;
+  border: 1pt solid black;
+  transition: 0.1s all ease;
+  flex: 1;
+  border-radius: 4px 4px 8px 8px;
+}
